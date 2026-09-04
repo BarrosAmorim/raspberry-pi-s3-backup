@@ -99,11 +99,10 @@ raspberry-pi-s3-backup/
 │   ├── 02-configuracao-iam.md
 │   ├── 03-configuracao-s3.md
 │   ├── 04-configuracao-aws-cli.md
-│   ├── 05-script-backup.md
-│   ├── 06-retencao.md
-│   ├── 07-automatizacao-cron.md
-│   ├── 08-restauracao.md
-│   ├── 09-troubleshooting.md
+│   ├── 05-script-backup-retencao.md
+│   ├── 06-automatizacao-cron.md
+│   ├── 07-restauracao.md
+│   ├── 08-troubleshooting.md
 │   └── arquitetura.md
 │
 ├── scripts/
