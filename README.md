@@ -8,17 +8,17 @@ Solução de **backup automatizado de arquivos de um Raspberry Pi 5 para o Amazo
 
 ## Navegação
 
-- [Sobre o projeto](#-sobre-o-projeto)
-- [Objetivos](#-objetivos)
-- [Arquitetura](#-arquitetura)
-- [Tecnologias utilizadas](#-tecnologias-utilizadas)
-- [Estrutura do projeto](#-estrutura-do-projeto)
-- [Documentação](#-documentação)
-- [Resultados](#-resultados)
-- [Segurança](#-segurança)
-- [O que estou aprendendo](#-o-que-estou-aprendendo)
-- [Status do projeto](#-status-do-projeto)
-- [Conclusão](#-conclusão)
+- [Sobre o projeto](#sobre-o-projeto)
+- [Objetivos](#objetivos)
+- [Arquitetura](#arquitetura)
+- [Tecnologias utilizadas](#tecnologias-utilizadas)
+- [Estrutura do projeto](#estrutura-do-projeto)
+- [Documentação](#documentação)
+- [Resultados](#resultados)
+- [Segurança](#segurança)
+- [O que estou aprendendo](#o-que-estou-aprendendo)
+- [Status do projeto](#status-do-projeto)
+- [Conclusão](#conclusão)
 
 ---
 
@@ -258,7 +258,7 @@ Também foi realizado um teste com uma operação não autorizada:
 aws s3api get-bucket-location --bucket raspberry-pi-s3-backup-lab-2026
 ```
 
-O comando retornou `AccessDenied`, demonstrando que o usuário não possui permissões além das definidas na política.
+O comando retornou `AccessDenied`, demonstrando que o usuário não possui permissão para executar essa ação.
 
 ---
 
@@ -280,23 +280,9 @@ Este projeto está sendo utilizado para transformar conhecimentos teóricos em p
 
 ---
 
-## Próximas evoluções
-
-Algumas melhorias podem ser implementadas futuramente:
-
-- Criar um script específico para restauração.
-- Adicionar notificações de sucesso ou falha.
-- Melhorar o tratamento de erros do script.
-- Implementar backups de diretórios reais do servidor.
-- Adicionar monitoramento das execuções.
-- Avaliar estratégias de retenção mais avançadas.
-- Integrar o projeto com outros recursos de automação.
-
----
-
 ## Status do projeto
 
-**Concluído.**
+**Concluído — primeira versão funcional.**
 
 O Raspberry Pi consegue realizar backups para o Amazon S3, a retenção foi validada, a restauração foi testada e a execução automática com Cron foi configurada.
 
