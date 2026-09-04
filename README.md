@@ -15,8 +15,10 @@ Solução de **backup automatizado de arquivos de um Raspberry Pi 5 para o Amazo
 - [Estrutura do projeto](#-estrutura-do-projeto)
 - [Documentação](#-documentação)
 - [Resultados](#-resultados)
+- [Segurança](#-segurança)
 - [O que estou aprendendo](#-o-que-estou-aprendendo)
-- [Próximas evoluções](#-próximas-evoluções)
+- [Status do projeto](#-status-do-projeto)
+- [Conclusão](#-conclusão)
 
 ---
 
