@@ -420,4 +420,4 @@ A solução final permite que o Raspberry Pi realize o processo de backup automa
 
 ---
 
-[Anterior: Configuração da AWS CLI](04-configuracao-aws-cli.md) | [README](../README.md) | [Próximo: Processo de restauração](07-restauracao.md)
+[Anterior: Configuração da AWS CLI](05-script-backup-retencao.md) | [README](../README.md) | [Próximo: Processo de restauração](07-restauracao.md)

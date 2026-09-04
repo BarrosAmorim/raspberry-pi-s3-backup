@@ -887,4 +887,4 @@ A próxima etapa será configurar a execução automática do script utilizando 
 
 ---
 
-[Anterior: Configuração do AWS CLI](04-configuracao-aws-cli.md) | [README](../README.md) | [Próximo: Retenção](06-automatizacao-cron.md)
+[Anterior: Configuração do AWS CLI](04-configuracao-aws-cli.md) | [README](../README.md) | [Próximo: Automatização do Cron](06-automatizacao-cron.md)
